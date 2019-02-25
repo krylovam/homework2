@@ -10,50 +10,10 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../poi-4.0.1/poi-4.0.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/poi-4.0.1/poi-4.0.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../itext" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../itext" />
-          <root url="file://$MODULE_DIR$/../itext/date/src" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../itext" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../itext" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../itext" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../itext" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../itext" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../itext" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../itext" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../itext" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../itext" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../itext" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>
