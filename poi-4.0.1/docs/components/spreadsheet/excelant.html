@@ -149,7 +149,7 @@ document.write("Last Published: " + document.lastModified);
 <a href="../../components/spreadsheet/limitations.html">Limitations</a>
 </div>
 <div class="menuitem">
-<a href="../../components/spreadsheet/user-defined-functions.html">User Defined Functions</a>
+<a href="../../components/spreadsheet/user-defined-functions.html">com.User Defined Functions</a>
 </div>
 <div class="menupage">
 <div class="menupagetitle">ExcelAnt Tests</div>
@@ -517,8 +517,8 @@ BUILD SUCCESSFUL
 Total time: 390 milliseconds     
 </pre>
 <a name="Leveraging+User+Defined+Functions"></a>
-<h3 class="boxed">Leveraging User Defined Functions</h3>
-<p>POI has an excellent feature (besides ExcelAnt) called <a href="user-defined-functions.html">User Defined Functions</a>,
+<h3 class="boxed">Leveraging com.User Defined Functions</h3>
+<p>POI has an excellent feature (besides ExcelAnt) called <a href="user-defined-functions.html">com.User Defined Functions</a>,
      that allows you to write Java code that will be used in place of custom VB
      code or macros is a spreadsheet.  If you have read the documentation and written
      your own FreeRefFunction implmentations, ExcelAnt can make use of this code.
@@ -527,11 +527,11 @@ Total time: 390 milliseconds
 <p>Consider the previous example of the mortgage calculator.  What if, instead
      of being a formula in a cell, it was a function defined in a VB macro?  As luck
      would have it, we already have an example of this in the examples from the 
-     User Defined Functions example, so let's use that. In the example spreadsheet
+     com.User Defined Functions example, so let's use that. In the example spreadsheet
      there is a tab for  MortgageCalculatorFunction, which will use.  If you look in
      cell B4, you see that rather than a messy cell based formula, there is only the function
      call.  Let's not get bogged down in the function/Java implementation, as these
-     are covered in the User Defined Function documentation.  Let's just add
+     are covered in the com.User Defined Function documentation.  Let's just add
      a new target and test to our existing build file:</p>
 <pre class="code">
   &lt;target name="functionTest"&gt;
